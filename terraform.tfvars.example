@@ -1,0 +1,10 @@
+# Provide the relative path and file names for the TLS certificate, root CA and private key
+certificate_file    = "../vault.domain.com.crt"
+ca_certificate_file = "../ca.crt"
+private_key_file    = "../vault.domain.com.key"
+
+environment = "sandbox"
+
+sm_name        = "Hashicorp_Vault_TLS_Cert"
+sm_description = "TLS cert files for Hashicorp Vault Servers"
+managed_by     = "Hashicorp Team"
